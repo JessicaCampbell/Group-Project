@@ -1,0 +1,19 @@
+body {
+  font-family: arial
+}
+
+.table {
+  border: 1px solid black;
+  margin: 10px;
+  width: auto;
+  margin: 0 auto;
+}
+
+td{
+  border: 1px solid black;
+}
+
+img {
+  display: flex;
+  padding: 20px;
+}
