@@ -22,6 +22,15 @@ p {
   color: grey;
 }
 
+h2, h3 {
+  color: grey;
+  font-size: 20px;
+  margin-right: auto;
+  width: 100%
+}
+
+
+
 main {
     min-height: 600px;
     width: 100%;
@@ -33,13 +42,20 @@ main {
 
 
 footer {
-    min-height: 200px;
-    border: 1px solid #000;
+    height: 100px;
+    background-color: #FBF5ED;
     width: 100%;
 }
 
 img {
     max-width: 100%;
+}
+
+.brownies {
+  margin-right: auto;
+  width: 200px
+
+
 }
 
 .image-banner {
@@ -57,20 +73,6 @@ img {
 
 }
 
-.internal {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: transparent;
-  width: 100%;
-  height: 100%;
-}
-
-.internal:hover {
-  color: black;
-  font-style: bold;
-}
-
 .site-nav-wrapper {
     width: 100%;
     background-color: #FBF5ED;
@@ -82,7 +84,7 @@ img {
     align-items: center;
     justify-content: flex-start;
     list-style-type: none;
-    width: 80%;
+    width: 100%;
     height: 80px;
     margin: 0;
     padding: 0;
@@ -109,4 +111,16 @@ img {
   height: 30px;
   width: 30px;
   margin: 0px 10px;
+}
+
+.table {
+  border: 1px solid black;
+  margin: 10px;
+  width: auto;
+  margin-right: auto;
+  font-size: 12px
+}
+
+td{
+  border: 1px solid black;
 }
