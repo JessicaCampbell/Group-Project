@@ -29,6 +29,11 @@ header {
   margin-bottom: 2rem;
 }
 
+.website-details {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .recipe-section {
   width: 100%
 }
@@ -45,17 +50,22 @@ header {
 }
 
 .recipe-image {
-  width: 100%
+  width: 100%;
   text-align: left;
   padding: 0 1rem;
 }
-  )
+
+
 
 
 .recipe-ingredients {
-  width: 100%
+  width: 100%;
   text-align: left;
   padding: 0 1rem;
+}
+
+.contact-section {
+  text-align: center;
 }
 
 p {
@@ -110,6 +120,7 @@ th, td{
   }
 
   .website-details {
+    display: flex;
     flex-wrap: wrap;
   }
 
