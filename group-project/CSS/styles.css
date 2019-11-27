@@ -136,6 +136,12 @@ th, td{
 
 }
 
+.map {
+  margin: 0;
+  width: 100%;
+  text-align: left;
+}
+
 .site-nav {
     display: flex;
     align-items: center;
