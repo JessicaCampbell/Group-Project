@@ -1,4 +1,4 @@
-html, body {
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -11,11 +11,51 @@ html, body {
     box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 header {
     border-bottom: 1px solid #000;
     width: 100%;
     text-align: center;
     color: grey;
+}
+
+.page-lede {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.recipe-section {
+  width: 100%
+}
+
+.recipe-heading {
+  text-align: center;
+}
+
+.recipe-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.recipe-image {
+  width: 100%
+  text-align: left;
+  padding: 0 1rem;
+}
+  )
+
+
+.recipe-ingredients {
+  width: 100%
+  text-align: left;
+  padding: 0 1rem;
 }
 
 p {
@@ -29,18 +69,6 @@ h2, h3 {
   width: 100%
 }
 
-
-
-main {
-    min-height: 600px;
-    width: 100%;
-    display: flex;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 150px;
-}
-
-
 footer {
     height: 100px;
     background-color: #FBF5ED;
@@ -51,10 +79,39 @@ img {
     max-width: 100%;
 }
 
-.brownies {
+table {
+  border: 1px solid black;
+  margin: 10px;
+  width: auto;
   margin-right: auto;
-  width: 200px
+  font-size: 12px
+}
 
+th, td{
+  border: 1px solid black;
+  padding: .5rem;
+}
+.recipe-image {
+  width: 250px
+}
+
+.dessert-image {
+  width: 250px
+}
+
+@media screen and (max-width: 800px) {
+
+  .recipe-details {
+    flex-wrap: wrap;
+  }
+
+  .recipe-image {
+    text-align: left;
+  }
+
+  .website-details {
+    flex-wrap: wrap;
+  }
 
 }
 
@@ -111,16 +168,4 @@ img {
   height: 30px;
   width: 30px;
   margin: 0px 10px;
-}
-
-.table {
-  border: 1px solid black;
-  margin: 10px;
-  width: auto;
-  margin-right: auto;
-  font-size: 12px
-}
-
-td{
-  border: 1px solid black;
 }
